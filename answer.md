@@ -2,6 +2,7 @@
 Python
 
 ## Q2. コードの説明 Code Explanation
-あなたのコードがどのように動作するのか、簡潔に説明してください。
-Write a brief explanation about how your code works here.
+ある任意の文字列 [string] が入力されたとき、
+"Hello [string]!"
+と返すような関数
 
