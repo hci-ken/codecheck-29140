@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import sys
 
 
 def main(argv):
-    for i, v in enumerate(argv):
-        print("argv[{0}]: {1}".format(i, v))
+    print("Hello " + argv[0] + "!")
+
+
+if __name__ == "__main__":
+    main(sys.argv[1:])
